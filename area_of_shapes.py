@@ -18,5 +18,5 @@ circle_radius = float(input("What is the radius of the circle? "))
 print()
 #doing the math
 import math
-circle_area = math.pi * (circle_radius * circle_radius)
+circle_area = math.pi * (circle_radius ** 2)
 print(f"The area of the circle is: {circle_area}")
