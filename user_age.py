@@ -18,4 +18,5 @@ people = int(input("how many people are there? "))
 #Dividing cookies per people
 cookies_per_person = cookies_quantity/people
 print(f"Each person may have {cookies_per_person:.1f} cookies.")
+
 print()
